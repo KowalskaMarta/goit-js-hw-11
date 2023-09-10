@@ -1,2 +1,40 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.load__more {
+  width: 160px;
+  height: 40px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.scroll__top {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50%;
+  cursor: pointer;
+  bottom: 25px;
+  right: 25px;
+}

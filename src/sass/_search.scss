@@ -1,0 +1,40 @@
+.search {
+  &__form {
+    width: 100%;
+    position: fixed;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 15px 0;
+    z-index: 1;
+  }
+
+  &__input {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    border-right: none;
+    outline: none;
+  }
+
+  &__btn {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
